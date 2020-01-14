@@ -1,0 +1,15 @@
+{
+    "name": "message-broker-code-challange",
+    "version": "0.0.1",
+    "description": "This is a simple RabbitMQ challenge. Ensure that the message arrives to its destination",
+    "scripts": {
+        "send": "node ./app/send.js",
+        "recieve": "node ./app/recieve.js"
+    },
+    "author": "Qantas",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "amqplib": "0.5.5"
+    }
+}
