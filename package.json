@@ -10,6 +10,7 @@
     "license": "MIT",
     "private": true,
     "dependencies": {
-        "amqplib": "0.5.5"
+        "amqplib": "~0.5.5",
+        "winston": "~3.2.1"
     }
 }

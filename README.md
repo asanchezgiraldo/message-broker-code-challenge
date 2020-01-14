@@ -3,8 +3,9 @@
 ## Preqequisites
 
 - Docker to run rabbittmq
-- nodeJs ( node version 10 or above )
-- Read tutorial for RabbitMQ (https://www.rabbitmq.com/tutorials/tutorial-one-javascript.html)
+- nodeJs and node version 10 or above
+- Read tutorial for RabbitMQ [link](https://www.rabbitmq.com/tutorials/tutorial-one-javascript.html)
+
 ## Steps
 
 - Download this repository to your local machine

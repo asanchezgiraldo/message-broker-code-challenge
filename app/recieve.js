@@ -1,4 +1,5 @@
 var amqp = require('amqplib/callback_api');
+var winston = require('./config/winston');
 
 amqp.connect('amqp://localhost', function(error0, connection) {
     if (error0) {
@@ -14,11 +15,10 @@ amqp.connect('amqp://localhost', function(error0, connection) {
         channel.assertQueue(queue, {
             durable: false
         });
-
-        console.log(" [*] Waiting for messages in %s. To exit press CTRL+C", queue);
+        winston.info(` [*] Waiting for messages in ${queue}. To exit press CTRL+C`);
 
         channel.consume(queue, function(msg) {
-            console.log(" [x] Received %s", msg.content.toString());
+            winston.info(` [x] Received ${msg.content.toString()}`);
         }, {
             noAck: true
         });
