@@ -9,7 +9,7 @@
 ## Steps
 
 - Download this repository to your local machine
-- Create a Brach with and make a pull request so we can review your challenge
+- Create a branch with and make a pull request so we can review your challenge
 - Run script `docker run -it --rm --name RabbitMQ -p 5672:5672 -p 15672:15672 rabbitmq:3-management`, this will start up your message broker
 - Run script `npm run receive` in terminal #1 so that any messages sent are consumed
 - Run script `npm run send` in terminal #2 to send your first message
