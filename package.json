@@ -4,7 +4,7 @@
     "description": "This is a simple RabbitMQ challenge. Ensure that the message arrives to its destination",
     "scripts": {
         "send": "node ./app/send.js",
-        "recieve": "node ./app/recieve.js",
+        "receive": "node ./app/receive.js",
         "test": "> app/logs/combined.log && sh test/unit.sh"
     },
     "author": "Qantas",
