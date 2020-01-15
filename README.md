@@ -33,4 +33,3 @@ This message broker repository contains both the Producer and the Consumer, with
 Your task is to ensure the you can add further test coverage, and imlpement a test framework to test and find any nasty bugs. The bugs might be functional or none functional.
 
 In addition, ensure you can improve the reporting of the current test framwork located in the test folder
-
