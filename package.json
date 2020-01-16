@@ -7,7 +7,7 @@
         "receive": "node ./app/receive.js",
         "test": "> app/logs/combined.log && sh test/unit.sh"
     },
-    "author": "Qantas",
+    "author": "Alejandro Sanchez Giraldo",
     "license": "MIT",
     "private": true,
     "dependencies": {
